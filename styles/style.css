@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ruta de colores pagina */
+:root{
+    --color_primario: #FBBB02;
+    --color_secundario: #262626;
+    --color_terciario: #D3D3D3;
+    --color_letra_header: #000000;
+}
+
+/* header */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+header div img{
+    width: 110px;
+    height: 95px;
+    top: 2px;
+    left: 25px;
+    gap: 0px;
+    opacity: 0px;
+    margin-left: 25%;
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+header nav ul{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-right: 2%;
+}
+
+header nav ul li{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    margin-right: 5%;
+    height: 100%;
+}
+
+header nav ul li a{
+    color: var(--color_letra_header);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+header nav ul li.active a {
+    color: var(--color_primario);
+    border-bottom: 1px solid var(--color_primario);
+}
+
+header nav ul li a:hover{
+    color: var(--color_primario);
+}
+
+/* Section Styles */
+
+section{
+    background-color: var(--color_primario);
+    width: Fixed (1,440px)px;
+    height: Fixed (644px)px;
+    top: 100px;
+    padding: 167px 0px 167px 0px;
+    gap: 10px;
+    opacity: 0px;
+}
