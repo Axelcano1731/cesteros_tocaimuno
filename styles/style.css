@@ -10,6 +10,15 @@
     --color_secundario: #262626;
     --color_terciario: #D3D3D3;
     --color_letra_header: #000000;
+    --font-family: "Architects Daughter";
+}
+
+/* font family */
+
+.architects-daughter-regular {
+    font-family: "Architects Daughter", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* header */
@@ -23,7 +32,7 @@ header{
     opacity: 0px;
 }
 
-header div img{
+header .logo_cesteros img{
     width: 110px;
     height: 95px;
     top: 2px;
@@ -78,11 +87,90 @@ header nav ul li a:hover{
 /* Section Styles */
 
 section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: var(--color_primario);
-    width: Fixed (1,440px)px;
-    height: Fixed (644px)px;
-    top: 100px;
-    padding: 167px 0px 167px 0px;
+    padding: 0 0 0 10%;
+    width: 100vw;
+    height: 644px;
     gap: 10px;
-    opacity: 0px;
+    opacity: 1px;
+}
+
+section .tituloN1{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-right: 2%;
+    padding-bottom: 5%;
+}
+
+section .tituloN1 h1{
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 77.45px;
+    text-align: left;
+
+}
+
+section .tituloN1 p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+    text-align: left;
+}
+
+
+/* carrusel img */
+
+section .carrusel {
+    display: flex;
+    width: 60%;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+section .carrusel .swiper {
+    width: 100%;
+    height: 70%;
+}
+
+section .carrusel .swiper-slide {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .carrusel .swiper-slide {
+    width: 100%;
+}
+
+section .carrusel .swiper-slide img {
+    width: 100%;
+}
+
+section .carrusel .swiper-slide:nth-child(1n) {
+    width: 25%;
+}
+section .carrusel .swiper-slide:nth-child(2n) {
+    width: 25%;
+}
+
+section .carrusel .swiper-slide:nth-child(3n) {
+    width: 25%;
+}
+
+section .carrusel .swiper-slide:nth-child(4n) {
+    width: 25%;
+}
+
+section .carrusel .swiper-slide:nth-child(5n) {
+    width: 25%;
 }
