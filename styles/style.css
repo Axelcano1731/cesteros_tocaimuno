@@ -26,8 +26,8 @@
 header{
     display: flex;
     justify-content: space-between;
-    width: 100vw;
     height: 100px;
+    width: auto;
     gap: 0px;
     opacity: 0px;
 }
@@ -86,19 +86,19 @@ header nav ul li a:hover{
 
 /* Section Styles */
 
-section{
+main section{
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: var(--color_primario);
     padding: 0 0 0 10%;
-    width: 100vw;
+    width: auto;
     height: 644px;
     gap: 10px;
     opacity: 1px;
 }
 
-section .tituloN1{
+main section .tituloN1{
     display: flex;
     flex-direction: column;
     width: 40%;
@@ -106,7 +106,7 @@ section .tituloN1{
     padding-bottom: 5%;
 }
 
-section .tituloN1 h1{
+main section .tituloN1 h1{
     font-size: 64px;
     font-weight: 500;
     line-height: 77.45px;
@@ -114,7 +114,7 @@ section .tituloN1 h1{
 
 }
 
-section .tituloN1 p{
+main section .tituloN1 p{
     font-size: 20px;
     font-weight: 500;
     line-height: 24.2px;
@@ -124,7 +124,7 @@ section .tituloN1 p{
 
 /* carrusel img */
 
-section .carrusel {
+main section .carrusel {
     display: flex;
     width: 60%;
     justify-content: flex-start;
@@ -136,19 +136,19 @@ section .carrusel {
 }
 
 
-section .carrusel .swiper {
+main section .carrusel .swiper {
     width: 100%;
     height: 70%;
 }
 
-section .carrusel .swiper-slide {
+main section .carrusel .swiper-slide {
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-section .carrusel .swiper-slide {
+main section .carrusel .swiper-slide {
     width: 100%;
 }
 
@@ -156,21 +156,224 @@ section .carrusel .swiper-slide img {
     width: 100%;
 }
 
-section .carrusel .swiper-slide:nth-child(1n) {
+main section .carrusel .swiper-slide:nth-child(1n) {
     width: 25%;
 }
-section .carrusel .swiper-slide:nth-child(2n) {
-    width: 25%;
-}
-
-section .carrusel .swiper-slide:nth-child(3n) {
+main section .carrusel .swiper-slide:nth-child(2n) {
     width: 25%;
 }
 
-section .carrusel .swiper-slide:nth-child(4n) {
+main section .carrusel .swiper-slide:nth-child(3n) {
     width: 25%;
 }
 
-section .carrusel .swiper-slide:nth-child(5n) {
+main section .carrusel .swiper-slide:nth-child(4n) {
     width: 25%;
+}
+
+main section .carrusel .swiper-slide:nth-child(5n) {
+    width: 25%;
+}
+
+/* manos tejen section */
+
+main .tipos_tejen{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    padding: 4rem;
+    width: auto;
+    height: auto;
+    top: 744px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+main .tipos_tejen .tittle_manos h2{
+    color: var(--color_primario);
+    font-family: var(--font-family);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 50.03px;
+    text-align: left;
+    margin-bottom: 3rem;
+
+}
+main .tipos_tejen .img_text{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+main .tipos_tejen .img_text img{
+    width: 200px;
+    height: 200px;
+    margin-top: 3rem;
+    margin-bottom: 20px;
+    gap: 0px;
+    border-radius: 210px;
+    opacity: 0px;
+}
+
+main .tipos_tejen .img_text{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 16.41px;
+
+}
+
+main .tipos_tejen .img_text .img_tradi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .tipos_tejen .img_text .img_tradi h3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 0 20px 0;
+    align-items: center;
+}
+
+main .tipos_tejen .img_text .img_bisu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main .tipos_tejen .img_text .img_bisu h3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 0 20px 0;
+    align-items: center;
+}
+
+main .tipos_tejen .img_text .img_hogar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .tipos_tejen .img_text .img_hogar h3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 0 20px 0;
+    align-items: center;
+}
+
+/*  section info */
+
+main .info_section{
+    width: auto;
+    height: 546px;
+    gap: 0px;
+    opacity: 0px;
+    background: #00000099;
+    background-image: url(/Images/fondo_info.png);
+}
+
+main .info_section .text_info{
+    font-family: var(--font-family);
+    color: var(--color_terciario);
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color_secundario);
+    width: auto;
+    height: auto;
+    padding: 4rem 4rem 0 4rem;
+    top: 2681px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+footer .conteiner_footer{
+    display: flex;
+    width: 1750px;
+    justify-content: space-between;
+    color: white;
+}
+
+footer .conteiner_footer h3{
+    color: var(--color_primario);
+    margin-bottom: 0px;
+}
+
+footer .conteiner_footer p{
+    font-family: Inter;
+    font-weight: 300;
+    line-height: 16.94px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer .conteiner_footer .canal .canal_content{
+    display: flex;
+    align-items: center;
+}
+
+footer .conteiner_footer .canal .canal_content p{
+    margin-right: 40px;
+}
+
+footer .conteiner_footer .redes .redes_content{
+    width: auto;
+    padding-top: 0;
+    margin: 0;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .conteiner_footer .redes .redes_content div{
+    margin: 20px  0 0;
+    display: flex;
+    align-items: center;
+}
+
+footer .conteiner_footer .redes .redes_content div p{
+    margin: 0 0 0 10px;
+}
+
+footer .conteiner_footer .contacto .contacto_content{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .conteiner_footer .contacto .contacto_content div{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+footer .conteiner_footer .contacto .contacto_content div p{
+    margin: 0 0 0 10px;
+}
+
+footer .dev{
+    color: white;
+    margin-top: 5px;
+}
+
+footer .dev span{
+    color: var(--color_primario);
 }
