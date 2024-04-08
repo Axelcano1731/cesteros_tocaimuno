@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
     <title>Inicio</title>
 </head>
@@ -89,19 +90,42 @@
             </div>
         </section>
         <section class="info_section">
+            <div class="black"></div>
             <div class="text_info">
                 <h2>
                     Quieres estar informado de <br>
                     nuestros eventos
                 </h2>
                 <p>
-                    Ingresa tu correo electrónico y recibiras noticias de primera mano sobre nuestros
+                    Ingresa tu correo electrónico y recibiras noticias de primera mano sobre nuestros<br>
                     eventos. 
                 </p>
             </div>
             <div class="save_email">
-                <input type="text">
-                <input type="button" value="Enviar">
+                <input type="text" class="text" placeholder="Correo electrónico">
+                <input type="button" value="Enviar" class="send">
+            </div>
+        </section>
+        <section class="map">
+            <div id="mapid"></div>
+        </section>
+        <section class="dudas">
+            <div class="conteiner_1">
+                <h2>Tienes alguna duda o comentario</h2>
+                <p>Lorem ipsum dolor sit amet consectetur. Facilisi id integer nibh felis praesent <br> 
+                    nunc adipiscing. Arcu placerat maecenas rutrum aenean ultricies et <br> 
+                    condimentum phasellus phasellus. Massa nibh sed duis quam vitae. Quisque <br>
+                    integer ac dignissim fermentum gravida nec. Fringilla aenean quam sociis turpis <br>
+                    sit imperdiet. Ut velit nam congue a. Gravida convallis nunc nisl morbi enim. Odio <br>
+                    habitasse at nulla sed sed pulvinar. Ut nec morbi pulvinar eu elit augue sem <br>
+                    diam. Id laoreet aliquet eget risus magnis a aliquet. Lacus aliquam sed mattis <br>
+                    tellus netus nunc a adipiscing ut. Nulla feugiat dui nunc porttitor porttitor.</p>
+            </div>
+            <div class="conteiner_2">
+                <input type="text" class="text" placeholder="Nombre y Apellidos">
+                <input type="text" class="text" placeholder="Celular">
+                <input type="text" class="text" placeholder="Asunto">
+                <input type="button" value="Enviar" class="send">
             </div>
         </section>
         <footer>
@@ -160,6 +184,7 @@
             </div>
         </footer>       
     </main>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="/Js/Inicio.js"></script>

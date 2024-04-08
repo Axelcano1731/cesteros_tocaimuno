@@ -273,18 +273,159 @@ main .tipos_tejen .img_text .img_hogar h3{
 
 /*  section info */
 
-main .info_section{
+main .info_section .black {
+    position: absolute;
+    background: #00000099;
+    width: 100%;
+    right: 0.1px;
+    height: 546px;
+    z-index: 100;
+}
+
+main .info_section {
+    display: flex;
+    justify-content: space-around;
     width: auto;
     height: 546px;
     gap: 0px;
     opacity: 0px;
-    background: #00000099;
     background-image: url(/Images/fondo_info.png);
+    background-size: cover;
 }
 
-main .info_section .text_info{
+main .info_section .text_info {
     font-family: var(--font-family);
     color: var(--color_terciario);
+    position: relative;
+    z-index: 150;
+}
+
+main .info_section .text_info h2{
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 66.7px;
+    text-align: left;
+}
+main .info_section .text_info p{
+    margin-top: 43px;
+}
+
+main .info_section .save_email{
+    padding-right: 40px;
+    display: flex;
+    font-family: var(--font-family);
+    position: relative;
+    z-index: 150;
+}
+
+main .info_section .save_email .text {
+    margin-right: -1px;
+    background-color: #FFFFFF66;
+    color: white;
+    width: 500px;
+    height: 73px;
+    border-style: none;
+    top: 209px;
+    left: 785px;
+    padding: 34px 21px 34px 21px;
+    gap: 10px;
+    border-radius: 10px 0px 0px 10px;
+    outline: none; 
+}
+
+main .info_section .save_email .text::placeholder {
+    color: white;
+}
+
+
+main .info_section .save_email .send{
+    margin-left: -1px; 
+    border-style: none;
+    background-color: var(--color_primario);
+    width: 76px;
+    height: 72.674999px;
+    top: 209px;
+    left: 1240px;
+    gap: 0px;
+    border-radius: 0px 10px 10px 0px;
+    opacity: 0px;
+}
+/* mapa */
+
+main .map{
+    width: auto;
+    background-color: var(--color_terciario);
+    height: 421px;
+    gap: 0px;
+    opacity: 1px;
+}
+
+#mapid {
+    width: 100%;
+    right: 100px;
+    height: 421px;
+}
+
+/* dudas o comentarios */
+main .dudas{
+    font-family: var(--font-family);
+    width: auto;
+    background-color: white;
+    height: 421px;
+    opacity: 1px;
+}
+
+main .dudas .conteiner_1 {
+    display: flex;
+    flex-direction: column;
+    border-style: none;
+    outline: none; 
+    padding-bottom: 40px;
+}
+
+main .dudas .conteiner_1 h2{
+    margin-bottom: 50px;
+}
+
+main .dudas .conteiner_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border-style: none;
+    outline: none; 
+}
+
+main .dudas .conteiner_2 input {
+    border: none;
+    border-bottom: 2px solid var(--color_primario);
+    color: black;
+    outline: none;  
+    width: 500px;
+    height: 73px;
+    top: 2315px;
+    left: 735px;
+    padding: 34px 21px 34px 21px;
+    margin-bottom: 20px;
+    border-radius: 0px 0px 10px 10px; 
+    border: 0px 0px 1px 0px;
+}
+
+main .dudas .conteiner_2 input::placeholder{
+    color: black;
+}
+
+main .dudas .conteiner_2 .send{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color_primario);
+    color: black;
+    width: 118px;
+    height: 42px;
+    margin-top: 20px;
+    padding: 0;
+    gap: 10px;
+    border-radius: 10px 10px 10px 10px;
 }
 
 /* footer */
