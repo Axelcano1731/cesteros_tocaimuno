@@ -289,7 +289,7 @@ main .info_section {
     height: 546px;
     gap: 0px;
     opacity: 0px;
-    background-image: url(/Images/fondo_info.png);
+    background-image: url(../Images/fondo_info.png);
     background-size: cover;
 }
 
