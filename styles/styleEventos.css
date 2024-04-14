@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ruta de colores pagina */
+:root{
+    --color_primario: #FBBB02;
+    --color_secundario: #262626;
+    --color_terciario: #D3D3D3;
+    --color_letra_header: #000000;
+    --font-family: "Architects Daughter";
+}
+
+/*  eventos style */
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main h1{
+    margin: 4rem 0 2rem 0;
+    width: 402px;
+    height: 50px;
+    top: 50px;
+    left: 506px;
+    gap: 0px;
+    opacity: 0px;
+    color: var(--color_primario);
+    font-family: var(--font-family);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 50.03px;
+    text-align: left;
+}
+
+main .conteiner_eventos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 20px; 
+    background-color: white;
+    width: auto;
+    height: auto;
+    top: 103px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+
+/*  card style */
+
+main .conteiner_eventos .card1{
+    margin: 4rem;
+    display: flex;
+    width: 520px;
+    height: 270px;
+    top: 145px;
+    left: 106px;
+    padding: 20px 0px 0px 0px;
+    gap: 25px;
+    opacity: 0px;
+}
+
+main .conteiner_eventos .card1 img{
+    width: 161px;
+    height: 230px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+}
+
+
+main .conteiner_eventos .card1 .text{
+    font-family: var(--font-family);
+}
+
+main .conteiner_eventos .card1 .text h5{
+    color: #606060;
+
+}
+
+main .conteiner_eventos .card1 .text .conteiner_button{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    height: auto;
+    width: 100%; 
+}
+main .conteiner_eventos .card1 .text .conteiner_button .button{
+    display: flex;
+    height: 29px;
+    width: 144px; 
+    background-color: var(--color_primario);
+    padding: 5px 20px 5px 20px;
+    gap: 14px;
+    border-radius: 10px;
+}
+main .conteiner_eventos .card1 .text .conteiner_button .button h5{
+    color: white;
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.46px;
+}
+
+main .conteiner_eventos .card1 .text .conteiner_button .button img{
+    width: 20px;
+    height: 20px;
+}
