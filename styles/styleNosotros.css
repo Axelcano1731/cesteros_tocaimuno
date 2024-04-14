@@ -123,6 +123,7 @@ main .section_historia .text h2{
 }
 
 main .section_historia .tittle_galeria{
+    color: var(--color_secundario);
     margin: 5rem 0 0 0;
     width: auto;
     height: auto;

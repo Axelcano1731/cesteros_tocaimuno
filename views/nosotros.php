@@ -19,7 +19,7 @@
             <ul>
                 <li><a href="inicio.php">Inicio</a></li>
                 <li class="active"><a href="nosotros.php">Nosotros</a></li>
-                <li><a href="#">Portafolio</a></li>
+                <li><a href="portafolio.php">Portafolio</a></li>
                 <li><a href="#">Perfiles</a></li>
                 <li><a href="#">Eventos</a></li>
                 <li><a href="#">Blog</a></li>
@@ -103,6 +103,6 @@
     <?php
         include("modulos/js.php");
     ?>
-    <script type="text/javascript" src="../Js/Inicio.js"></script>
+    <script type="text/javascript" src="../Js/nosotros.js"></script>
 </body>
 </html>
