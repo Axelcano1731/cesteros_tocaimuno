@@ -21,7 +21,7 @@
                 <li><a href="nosotros.php">Nosotros</a></li>
                 <li class="active"><a href="portafolio">Portafolio</a></li>
                 <li><a href="#">Perfiles</a></li>
-                <li><a href="#">Eventos</a></li>
+                <li><a href="eventos.php">Eventos</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Multimedia</a></li>
                 <li><a href="#">Contactenos</a></li>
