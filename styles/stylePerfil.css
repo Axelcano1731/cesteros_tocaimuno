@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ruta de colores pagina */
+:root{
+    --color_primario: #FBBB02;
+    --color_secundario: #262626;
+    --color_terciario: #D3D3D3;
+    --color_letra_header: #000000;
+    --font-family: "Architects Daughter";
+}
+
+/* perfil */
+
+main .conteiner_profile{
+    display: flex;
+    width: auto;
+    height: 2159px;
+    top: 101px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+main .conteiner_profile .profile{
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+}
+
+main .conteiner_profile .profile .img img{
+    width: 460px;
+    height: 500px;
+    top: 171px;
+    left: 94px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+
+main .conteiner_profile .profile .profile_text{
+    font-family: var(--font-family);
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+main .conteiner_profile .profile .profile_text button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 45px;
+    top: 569px;
+    left: 672px;
+    padding: 10px 20px 10px 20px;
+    gap: 13px;
+    border-radius: 10px;
+    opacity: 0px;
+    background-color: green;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main .conteiner_profile .profile .profile_text button img{
+    width: 25px;
+    height: 25px;
+    gap: 0px;
+    opacity: 0px;
+}

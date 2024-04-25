@@ -20,7 +20,7 @@
                 <li><a href="inicio.php">Inicio</a></li>
                 <li class="active"><a href="nosotros.php">Nosotros</a></li>
                 <li><a href="portafolio.php">Portafolio</a></li>
-                <li><a href="#">Perfiles</a></li>
+                <li><a href="perfiles.php">Perfiles</a></li>
                 <li><a href="eventos.php">Eventos</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Multimedia</a></li>
