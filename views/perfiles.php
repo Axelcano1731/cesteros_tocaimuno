@@ -38,7 +38,9 @@
                     <h2>Nombre de la persona</h2>
                     <h5>Cestero</h5>
                 </div>
-                <button>Mis Productos</button>
+                <a href="perfil.php">
+                    <button class="btn">Mis Productos</button>
+                </a>
             </div>
             <div class="profile">
                 <div class="img_profile">
@@ -48,7 +50,9 @@
                     <h2>Nombre de la persona</h2>
                     <h5>Cestero</h5>
                 </div>
-                <button>Mis Productos</button>
+                <a href="perfil.php">
+                    <button class="btn">Mis Productos</button>
+                </a>
             </div>
             <div class="profile">
                 <div class="img_profile">
@@ -58,7 +62,9 @@
                     <h2>Nombre de la persona</h2>
                     <h5>Cestero</h5>
                 </div>
-                <button>Mis Productos</button>
+                <a href="perfil.php">
+                    <button class="btn">Mis Productos</button>
+                </a>
             </div>
             <div class="profile">
                 <div class="img_profile">
@@ -68,7 +74,9 @@
                     <h2>Nombre de la persona</h2>
                     <h5>Cestero</h5>
                 </div>
-                <button>Mis Productos</button>
+                <a href="perfil.php">
+                    <button class="btn">Mis Productos</button>
+                </a>
             </div>
             <div class="profile">
                 <div class="img_profile">
@@ -78,7 +86,9 @@
                     <h2>Nombre de la persona</h2>
                     <h5>Cestero</h5>
                 </div>
-                <button>Mis Productos</button>
+                <a href="perfil.php">
+                    <button class="btn">Mis Productos</button>
+                </a>
             </div>
             <div class="profile">
                 <div class="img_profile">
@@ -88,7 +98,9 @@
                     <h2>Nombre de la persona</h2>
                     <h5>Cestero</h5>
                 </div>
-                <button>Mis Productos</button>
+                <a href="perfil.php">
+                    <button class="btn">Mis Productos</button>
+                </a>
             </div>
             <div class="profile">
                 <div class="img_profile">
@@ -98,7 +110,9 @@
                     <h2>Nombre de la persona</h2>
                     <h5>Cestero</h5>
                 </div>
-                <button>Mis Productos</button>
+                <a href="perfil.php">
+                    <button class="btn">Mis Productos</button>
+                </a>
             </div>
             <div class="profile">
                 <div class="img_profile">
@@ -108,7 +122,9 @@
                     <h2>Nombre de la persona</h2>
                     <h5>Cestero</h5>
                 </div>
-                <button>Mis Productos</button>
+                <a href="perfil.php">
+                    <button class="btn">Mis Productos</button>
+                </a>
             </div>
             <div class="profile">
                 <div class="img_profile">
@@ -118,7 +134,9 @@
                     <h2>Nombre de la persona</h2>
                     <h5>Cestero</h5>
                 </div>
-                <button>Mis Productos</button>
+                <a href="perfil.php">
+                    <button class="btn">Mis Productos</button>
+                </a>
             </div>
             <div class="profile">
                 <div class="img_profile">
@@ -128,7 +146,9 @@
                     <h2>Nombre de la persona</h2>
                     <h5>Cestero</h5>
                 </div>
-                <button>Mis Productos</button>
+                <a href="perfil.php">
+                    <button class="btn">Mis Productos</button>
+                </a>
             </div>
             <div class="profile">
                 <div class="img_profile">
@@ -138,7 +158,9 @@
                     <h2>Nombre de la persona</h2>
                     <h5>Cestero</h5>
                 </div>
-                <button>Mis Productos</button>
+                <a href="perfil.php">
+                    <button class="btn">Mis Productos</button>
+                </a>
             </div>
             <div class="profile">
                 <div class="img_profile">
@@ -148,7 +170,9 @@
                     <h2>Nombre de la persona</h2>
                     <h5>Cestero</h5>
                 </div>
-                <button>Mis Productos</button>
+                <a href="perfil.php">
+                    <button class="btn">Mis Productos</button>
+                </a>
             </div>
         </section>
     </main>
