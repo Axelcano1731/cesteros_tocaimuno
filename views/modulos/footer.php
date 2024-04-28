@@ -1,5 +1,5 @@
 
-<div class="conteiner_footer">
+<div class="conteiner_footer" id="footer">
     <div class="canal">
         <h3>Nuestro canal de Youtube</h3>
         <p>Ingresa a nuestro canal de Youtube y enterate de todas<br>

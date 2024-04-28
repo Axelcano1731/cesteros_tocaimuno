@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ruta de colores pagina */
+:root{
+    --color_primario: #FBBB02;
+    --color_secundario: #262626;
+    --color_terciario: #D3D3D3;
+    --color_letra_header: #000000;
+    --font-family: "Architects Daughter";
+}
+
+/* style multimedia */
+
+main .conteiner_multimedia{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    top: 101px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+main .conteiner_multimedia .tittle_multimedia{
+    font-family: var(--font-family);
+    margin: 8rem 0;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+
+}
+/*  content style */
+
+main .conteiner_multimedia .multimedia_content{
+    display: grid;
+    height: auto;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 4rem;
+    margin-bottom: 8rem;
+}
+
+main .conteiner_multimedia .multimedia_content .multimedia{
+    font-family: var(--font-family);
+    display: flex;
+    width: auto;
+    height: 340px;
+    top: 206px;
+    left: 131px;
+    padding: 20px 0px 0px 0px;
+    gap: 105px;
+    opacity: 0px;
+
+
+}
+
+main .conteiner_multimedia .multimedia_content .multimedia img{
+    width: 300px;
+    height: 300px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+main .conteiner_multimedia .multimedia_content .multimedia .text_multimedia{
+    width: auto;
+    height: 243px;
+    gap: 12px;
+    opacity: 0px;
+}
+
+main .conteiner_multimedia .multimedia_content .multimedia .text_multimedia h2{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 55.59px;
+    text-align: left;
+}
+
+main .conteiner_multimedia .multimedia_content .multimedia .text_multimedia .descripcion{
+    width: auto;
+    height: auto;
+    gap: 0px;
+    opacity: 0px;
+}
+
+main .conteiner_multimedia .multimedia_content .multimedia .text_multimedia .descripcion p{
+    margin-top: 2rem;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: left;
+}
+
+main .conteiner_multimedia .multimedia_content .multimedia .text_multimedia .button{
+    margin: 4rem 0 0 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+main .conteiner_multimedia .multimedia_content .multimedia .text_multimedia .button button{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 137px;
+    height: 37px;
+    padding: 10px 20px 10px 20px;
+    gap: 13px;
+    border-radius: 10px;
+    opacity: 0px;
+    
+}
+
+main .conteiner_multimedia .multimedia_content .multimedia .text_multimedia .button img{
+    width: 14px;
+    height: 14px;
+}
+
+
