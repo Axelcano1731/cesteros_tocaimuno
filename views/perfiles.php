@@ -23,8 +23,8 @@
                 <li class="active"><a href="perfiles.php">Perfiles</a></li>
                 <li><a href="eventos.php">Eventos</a></li>
                 <li><a href="blog.php" target="_blank">Blog</a></li>
-                <li><a href="#">Multimedia</a></li>
-                <li><a href="#">Contactenos</a></li>
+                <li><a href="multimedia.php">Multimedia</a></li>
+                <li><a href="#footer">Contactenos</a></li>
             </ul>
         </nav>
     </header>
