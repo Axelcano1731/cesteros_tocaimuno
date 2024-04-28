@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ruta de colores pagina */
+:root{
+    --color_primario: #FBBB02;
+    --color_secundario: #262626;
+    --color_terciario: #D3D3D3;
+    --color_letra_header: #000000;
+    --font-family: "Architects Daughter";
+}
+
+/* style blog */
+
+main .conteiner_blog{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    top: 101px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+main .conteiner_blog .tittle_blog{
+    font-family: var(--font-family);
+    margin: 8rem 0;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+
+}
+/*  content style */
+
+main .conteiner_blog .blog_content{
+    display: grid;
+    height: auto;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 4rem;
+    margin-bottom: 8rem;
+}
+
+main .conteiner_blog .blog_content .blog{
+    display: flex;
+    width: auto;
+    height: 284px;
+    top: 213px;
+    left: 131px;
+    gap: 39px;
+    opacity: 0px;
+
+}
+
+main .conteiner_blog .blog_content .blog img{
+    width: 375px;
+    height: 244px;
+    gap: 0px;
+    opacity: 0px;    
+}
+
+main .conteiner_blog .blog_content .blog .text_blog{
+    width: auto;
+    height: 243px;
+    gap: 12px;
+    opacity: 0px;
+}
+
+main .conteiner_blog .blog_content .blog .text_blog h5{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: left;
+}
+
+main .conteiner_blog .blog_content .blog .text_blog h3{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+    text-align: left;
+}
+
+main .conteiner_blog .blog_content .blog .text_blog .descripcion{
+    width: auto;
+    height: 75px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+main .conteiner_blog .blog_content .blog .text_blog .descripcion p{
+    margin-top: 2rem;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: left;
+}
+
+main .conteiner_blog .blog_content .blog .text_blog .button{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+main .conteiner_blog .blog_content .blog .text_blog .button button{
+    background-color: var(--color_primario);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 146px;
+    height: 44px;
+    padding: 10px 20px 10px 20px;
+    gap: 13px;
+    border-radius: 10px;
+    opacity: 0px;
+}
+
+main .conteiner_blog .blog_content .blog .text_blog .button img{
+    width: 14px;
+    height: 14px;
+}
+
+

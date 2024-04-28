@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="../styles/stylePortafolio.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-    <title>Inicio</title>
+    <title>Portafolio</title>
 </head>
 <body>
     <header>
@@ -22,7 +22,7 @@
                 <li class="active"><a href="portafolio">Portafolio</a></li>
                 <li><a href="perfiles.php">Perfiles</a></li>
                 <li><a href="eventos.php">Eventos</a></li>
-                <li><a href="#">Blog</a></li>
+                <li><a href="blog.php" target="_blank">Blog</a></li>
                 <li><a href="#">Multimedia</a></li>
                 <li><a href="#">Contactenos</a></li>
             </ul>
