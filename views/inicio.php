@@ -21,7 +21,7 @@
                 <li><a href="portafolio.php">Portafolio</a></li>
                 <li><a href="perfiles.php">Perfiles</a></li>
                 <li><a href="eventos.php">Eventos</a></li>
-                <li><a href="#">Blog</a></li>
+                <li><a href="blog.php" target="_blank">Blog</a></li>
                 <li><a href="#">Multimedia</a></li>
                 <li><a href="#">Contactenos</a></li>
             </ul>
