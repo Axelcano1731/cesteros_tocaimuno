@@ -38,17 +38,88 @@
                     <h2>Hola!</h2>
                     <h5>Nombre de la persona</h5>
                     <p>
-                        Soy oriundo del municipio de Tocaima. Desde los 8 años iba al río para traer la Caña 
-                        de Castilla junto a mis padres arriesgando la vida, dado que atravesábamos lotes 
-                        privados bajo el riesgo de ser confundidos con ladrones. En muchas ocasiones 
-                        transportábamos la materia prima en balsas de Bambú llevados por la corriente. Mis
-                        productos destacados son el canasto tradicional, canasto mediano y canasto pequeño, entre otros
+                        Soy oriundo del municipio de Tocaima. Desde los 8 años iba al río para traer la Caña<br>
+                        de Castilla junto a mis padres arriesgando la vida, dado que atravesábamos lotes<br>
+                        privados bajo el riesgo de ser confundidos con ladrones. En muchas ocasiones<br>
+                        transportábamos la materia prima en balsas de Bambú llevados por la corriente. Mis<br>
+                        productos destacados son el canasto tradicional, canasto mediano y canasto<br>
+                        pequeño, entre otros
                     </p>
-                    <button><img src="../Images/whastappIcon.png">321 293 2969 </button>
+                    <a href="https://wa.me/573212932969" target="_blank">
+                        <button class="btn">
+                            <img src="../Images/whastappIcon.png">321 293 2969
+                        </button>
+                    </a>
                 </div>
             </div>
-            <div class="tittle"></div>
+            <div class="tittle">
+                <h2>Conoce mis productos</h2>
+            </div>
             <div class="productos">
+                <div class="producto">
+                    <img src="../Images/cuadro_grisOscuro.png">
+                    <div class="text">
+                        <h4>Nombre del producto</h4>
+                        <h5>Dimensiones del producto en cm</h5>
+                        <h3>$10.000</h3>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img src="../Images/cuadro_grisOscuro.png">
+                    <div class="text">
+                        <h4>Nombre del producto</h4>
+                        <h5>Dimensiones del producto en cm</h5>
+                        <h3>$10.000</h3>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img src="../Images/cuadro_grisOscuro.png">
+                    <div class="text">
+                        <h4>Nombre del producto</h4>
+                        <h5>Dimensiones del producto en cm</h5>
+                        <h3>$10.000</h3>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img src="../Images/cuadro_grisOscuro.png">
+                    <div class="text">
+                        <h4>Nombre del producto</h4>
+                        <h5>Dimensiones del producto en cm</h5>
+                        <h3>$10.000</h3>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img src="../Images/cuadro_grisOscuro.png">
+                    <div class="text">
+                        <h4>Nombre del producto</h4>
+                        <h5>Dimensiones del producto en cm</h5>
+                        <h3>$10.000</h3>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img src="../Images/cuadro_grisOscuro.png">
+                    <div class="text">
+                        <h4>Nombre del producto</h4>
+                        <h5>Dimensiones del producto en cm</h5>
+                        <h3>$10.000</h3>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img src="../Images/cuadro_grisOscuro.png">
+                    <div class="text">
+                        <h4>Nombre del producto</h4>
+                        <h5>Dimensiones del producto en cm</h5>
+                        <h3>$10.000</h3>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img src="../Images/cuadro_grisOscuro.png">
+                    <div class="text">
+                        <h4>Nombre del producto</h4>
+                        <h5>Dimensiones del producto en cm</h5>
+                        <h3>$10.000</h3>
+                    </div>
+                </div>
             </div>
         </section>
     </main>

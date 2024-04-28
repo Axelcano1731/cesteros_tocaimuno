@@ -17,18 +17,20 @@
 
 main .conteiner_profile{
     display: flex;
+    flex-direction: column;
+    background-color: white;
     width: auto;
-    height: 2159px;
+    padding: 8rem;
+    height: auto;
     top: 101px;
     gap: 0px;
     opacity: 0px;
 }
 
 main .conteiner_profile .profile{
-    background-color: rebeccapurple;
     display: flex;
-    justify-content: space-between;
-    width: auto;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 main .conteiner_profile .profile .img img{
@@ -46,8 +48,52 @@ main .conteiner_profile .profile .profile_text{
     font-family: var(--font-family);
     display: flex;
     flex-direction: column;
+    width: auto;
     height: auto;
 }
+
+main .conteiner_profile .profile .profile_text h2{
+    color: var(--color_primario);
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 88.94px;
+    text-align: left;
+    width: 176px;
+    height: 89px;
+    top: 180px;
+    left: 672px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+
+main .conteiner_profile .profile .profile_text h5{
+    width: 411px;
+    height: 56px;
+    top: 294px;
+    left: 672px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 55.59px;
+    text-align: left;
+}
+
+main .conteiner_profile .profile .profile_text p{
+    width: 632px;
+    height: 132px;
+    top: 385px;
+    left: 672px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.23px;
+    text-align: left;
+}
+
+
 
 main .conteiner_profile .profile .profile_text button{
     display: flex;
@@ -55,15 +101,17 @@ main .conteiner_profile .profile .profile_text button{
     align-items: center;
     width: 200px;
     height: 45px;
-    top: 569px;
-    left: 672px;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 20px;
+    margin-top: 3rem;
     gap: 13px;
     border-radius: 10px;
-    opacity: 0px;
     background-color: green;
     color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main .conteiner_profile .profile .profile_text a{
+    text-decoration: none;
 }
 
 main .conteiner_profile .profile .profile_text button img{
@@ -72,3 +120,75 @@ main .conteiner_profile .profile .profile_text button img{
     gap: 0px;
     opacity: 0px;
 }
+
+/*  tittle style */
+
+main .conteiner_profile .tittle{
+    width: auto;
+    height: auto;
+    margin: 8rem 0;
+}
+
+/*  productos style */
+
+main .conteiner_profile .productos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 20px;
+    width: auto;
+    height: auto;
+}
+
+main .conteiner_profile .productos .producto{
+    display: flex;
+    width: 519px;
+    height: 220px;
+    top: 970px;
+    left: 127px;
+    padding: 10px 0px 0px 0px;
+    gap: 40px;
+    opacity: 0px;    
+}
+
+main .conteiner_profile .productos .producto .text{
+    font-family: var(--font-family);
+    padding: 2rem 0;
+    width: 259px;
+    height: 134px;
+    gap: 20px;
+    opacity: 0px;
+}
+
+main .conteiner_profile .productos .producto .text h4{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.35px;
+    text-align: left;
+    
+}
+
+main .conteiner_profile .productos .producto .text h5{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21.09px;
+    text-align: left;
+    
+}
+
+main .conteiner_profile .productos .producto .text h3{
+    margin-top: 2rem;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 50.03px;
+    text-align: left;
+    
+}
+main .conteiner_profile .productos .producto img{
+    width: 200px;
+    height: 200px;
+    gap: 0px;
+    opacity: 0px;
+}
+
